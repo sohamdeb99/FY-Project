@@ -1,0 +1,46 @@
+{
+  "name": "final-year-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "client": "npm start --prefix project",
+    "dev": "concurrently \"npm start\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.18",
+    "@mui/material": "^5.14.18",
+    "axios": "^1.5.1",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^8.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.6.2",
+    "msnodesqlv8": "^4.1.0",
+    "mssql": "^10.0.1",
+    "mysql": "^2.18.1",
+    "openai": "^4.24.0",
+    "react-router-dom": "^6.18.0",
+    "react-scripts": "^5.0.1",
+    "react-swipeable-views": "^0.14.0",
+    "react-swipeable-views-utils": "^0.14.0",
+    "react-swiper": "^0.1.5",
+    "sequelize": "^6.33.0",
+    "swiper": "^11.0.5"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
+}

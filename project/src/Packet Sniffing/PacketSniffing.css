@@ -1,0 +1,193 @@
+:root {
+    --white: #ffffff;
+    --input-bg: #f7f7f7;
+    --nav-color: #1976d2;
+    --primary-color: #FFD700;
+    --popup-bg: #2f2f2f;
+    --text-dark: #333;
+    --nav-height: 150px;
+}
+
+body {
+    font-family: system-ui;
+    background-color: #f4f4f4;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: #fff;
+}
+
+/* body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: #fff;
+}
+
+.video-bg {
+    position: fixed; 
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -100; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+
+
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    background-image: url('C:\Users\soham\Final Year Project\project\public\bgv2.jpg');
+    background-size: cover;
+    padding: 250px;
+  }
+
+  .upload-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.custom-upload-btn {
+    background-color: #1976d2;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.custom-upload-btn:hover {
+    background-color: #3a3d40;
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: gold;
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+/* nav {
+    position: relative; 
+    width: 100%;
+    min-height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #00022e, #000000);
+  }  
+
+.nav__links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.nav__links a {
+    position: relative;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: var(--white);
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+    transition: color 0.3s;
+}
+
+.nav__links a::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--primary-color);
+    transition: width 0.3s ease;
+}
+
+.nav__links a:hover {
+    color: var(--primary-color);
+}
+
+.nav__links a:hover::before {
+    width: 100%;
+} */
+
+button {
+    padding: 10px 20px;
+    background-color: #1976d2;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* button:hover {
+    background-color: #1976d2;
+    transform: scale(1.05);
+  } */
+
+.login-button {
+    margin-right: 20px; /* Adjust this value as needed */
+}
+
+.footer {
+    background: linear-gradient(to right, #00022e, #000000);
+    color: white;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    height: 50px;
+}
+
+.footer p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.footer a {
+    color: #e75480;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-left {
+    float: left;
+}
+
+.footer-right {
+    float: right;
+}
+
+.logo img {
+    width: 108px;
+    vertical-align: middle; /* Vertically center the logo if your nav items are inline */
+}
